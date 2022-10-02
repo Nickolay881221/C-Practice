@@ -15,7 +15,7 @@ int Promt1(string message)
 int firstNumber = Promt1("Введите число 1 >");
 int secondNumber = Promt1("Введите число 2 >");
 
-if (secondNumber == firstNumber*firstNumber)
+if (firstNumber == secondNumber*secondNumber)
 {
 System.Console.WriteLine("первое число равно квадрату второго");
 }
