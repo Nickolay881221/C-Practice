@@ -23,3 +23,37 @@ else
 {
     System.Console.WriteLine("первое число не равно квадрату второго");
 }
+// Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+// 	3 -> Среда 
+// 5 -> Пятница
+
+int dayofweek = Promt1("Введите номер дня недели (от 1 до 7)>");
+
+if (dayofweek == 1)
+{
+    System.Console.WriteLine("Понедельник");
+}
+    else if (dayofweek == 2)
+    {
+        System.Console.WriteLine("Вторник");
+    }
+    else if (dayofweek == 3)
+    {
+        System.Console.WriteLine("Среда");
+    }
+    else if (dayofweek == 4)
+    {
+        System.Console.WriteLine("Четверг");
+    }
+    else if (dayofweek == 5)
+    {
+        System.Console.WriteLine("Пятница");
+    }
+    else if (dayofweek == 6)
+    {
+        System.Console.WriteLine("Суббота");
+    }
+    else if (dayofweek == 7)
+    {
+        System.Console.WriteLine("Воскресенье");
+    }
